@@ -374,7 +374,9 @@ function setupSequentialVideos(options) {
     });
   }, observerOptions);
 
-  observer.observe(videoContainer);
+  // observer.observe(videoContainer);
+  observer.observe(videos[0]); // Nov 7 Luo
+
 
   // Optional: Unmute videos after user interaction
   if (unmuteOnInteraction) {
