@@ -289,6 +289,7 @@ body {
 
 .kuka_base_row video {
   min-width: 100px;
+  border-radius: 6px; /* Rounded corners */
 }
 
 @media (max-width: 800px) {
