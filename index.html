@@ -145,20 +145,26 @@
 </section>
 
 
+
 <section class="section" style="margin-top: 0px; padding-top: 0px">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
-      <div class="column is-full-width" style="margin-top: 0px; padding-top: 0px">
+      <!-- <div class="column is-full-width" style="margin-top: 0px; padding-top: 0px"> -->
+      <div class="column is-four-fifths" style="margin-top: 0px; padding-top: 0px">
+      <!-- <div class="column is-five-sixths" style="margin-top: 0px; padding-top: 0px"> -->
+
+        <!-- We illustrate how we can ground video models to actions without using actions labels through goal conditioned exploration with the synthesized video frames as goal. -->
+
           <div class="video-container text-centered">
             <!-- preload=""  autoplay="" -->
             <!-- TODO: -->
-            <video width="70%" playsinline="" muted="" preload="metadata" controls class="teaser-video-style">
+            <video width="88%" playsinline="" muted="" preload="metadata" controls class="teaser-video-style">
                 <source src="materials/50-animate-ppt-v1.mp4" type="video/mp4">
             </video>
-          <p>
+          <p style="font-size: 19px;">
             <!-- TODO: -->
-            <!-- <b>Video Summary.</b> -->
-            <b>Grounding Video Models to Actions.</b>
+            <!-- <b>Video Summary.</b> 7400B8 -->
+            <b style="color: #5A36CD">Grounding Video Models to Actions.</b>
             We learn a goal-conditioned policy to ground video models to executable actions without any action demonstrations or environment rewards
             <!-- for learning a goal-conditioned policy  -->
             by using the synthesized video frames as goal to direct the exploration and training the policy with the collected interaction data.
@@ -177,12 +183,13 @@
   </div>
 </section>
 
-
+<hr>
 
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
-      <div class="column is-full-width">
+      <!-- <div class="column is-full-width"> -->
+      <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
@@ -200,18 +207,10 @@
             
           </p>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
-
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body centered">
-      <figure>
-          <img width="60%" src="materials/1-teaser-v4-for-web.png" style="min-width: 200px">
+        <figure>
+          <img width="75%" src="materials/1-teaser-v4-for-web.png" style="min-width: 200px">
         <p class="caption">
             <b>Method Overview.</b>
             Our approach learns to ground a large pretrained video model into continuous actions through goal-directed exploration in an environment. 
@@ -220,12 +219,10 @@
         </p>
       </figure>
 
+      </div>
     </div>
   </div>
 </section>
-
-
-
 
 
 
