@@ -276,6 +276,11 @@ body {
   padding-top: 0px;
 } */
 
+.div_dd_list_1 video {
+  /* Rounded corners */
+  border-radius: 0px;
+}
+
 /* ------------------------ */
 
 .kuka_base_row {
