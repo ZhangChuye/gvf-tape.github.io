@@ -15,6 +15,13 @@ html {
   box-sizing: inherit;
 }
 
+/* Luo Dec 19 */
+/* adjust border of the title section */
+.hero .hero-body-dec19 {
+  padding-top: 2.5rem;
+  padding-bottom: 0.9rem;
+}
+
 /* Luo Nov 5 */
 
 .replay {
