@@ -1,4 +1,4 @@
-### Grounding Video Models to Actions through Goal Conditioned Exploration
+### Project Page for Generative Visual Foresight Meets Task-Agnostic Pose Estimation in Robotic Table-top Manipulation
 
 
 Webpage: 
